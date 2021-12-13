@@ -11,7 +11,7 @@ import javafx.stage.Stage;
 public class Main extends Application {
 	@Override
 	public void start(Stage primaryStage) {
-		try {
+		try {cambia
 			FXMLLoader loader = new FXMLLoader(getClass().getResource("ExtFlightDelays.fxml")) ;
 			BorderPane root = (BorderPane)loader.load();
 			ExtFlightDelaysController controller = loader.getController() ;
